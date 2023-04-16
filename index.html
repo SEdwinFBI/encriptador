@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Challeng/Decodificador/style.css">
+
+    <title>Encriptador Edwin</title>
+</head>
+
+
+<body class="encriptador">
+    <!-- Area de Logo Tipo -->
+    <header>
+        <div clas="logo">
+            <img class="logo-img" src="/Challeng/Decodificador/img/Vector.png" alt="">
+        </div>
+    </header>
+    <!-- Primera seccion -->
+    <section class="areaDeCaptamiento">
+        <!--introduccion de textos-->
+        <input type="text" class="texto" name="texto" id="texto" placeholder="Ingrese su texto aqui...">
+        <div class="botton">
+            <!-- botones-->
+            <input onclick="crypto()" class="encript" type="button" value="Encriptar">
+            <input onclick="descrypto()" class="desencript" type="button" value="Desencriptar">
+        </div>
+    </section>
+    <!-- Segunda seccion -->
+    <section class="areaDeRespuesta">
+        <div class="respuesta">
+            <!--respuestas-->
+            <input class="textoCopiar" type="text" name="" id="resultadoCrypto" disabled placeholder="Ningun Mensaje fue encontrado">
+            <div class="button-copi">
+                <!--boton de copiar-->
+                <input onclick="copiarYEliminar()" class="copi" type="button" value="Copiar">
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div class="footer-section">
+            <p class="footer-txt">by Edwin Baquiax </p>
+
+            <a href="#">
+                <div class="footer-txt">
+
+                    <img class="footer-img-linkedin" src="/Challeng/Decodificador/img/linkedin-icon-512x512-vkm0drb1.png" alt="">
+                </div>
+            </a>
+            <a href="#">
+                <div class="footer-txt">
+
+                    <img class="footer-img-github" src="/Challeng/Decodificador/img/25231.png" alt="">
+                </div>
+            </a>
+        </div>
+
+
+    </footer>
+
+
+    <script src="/Challeng/Decodificador/script.js"></script>
+</body>
+
+
+</html>
